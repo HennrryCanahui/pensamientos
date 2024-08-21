@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgb(220, 220, 236), pink);
+    color: #28303e;
+    
+}
+header {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px ;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
