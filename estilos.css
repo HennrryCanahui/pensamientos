@@ -2,10 +2,13 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(rgb(220, 220, 236), pink);
     color: #28303e;
+
+
+    transition: background 0.3s, color 0.3s;
     
 }
 header {
-    background-image: url('banner.jpg');
+    background-image: url('img/banner.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px ;
@@ -25,4 +28,48 @@ h1 {
 img {
     max-width: 100%;
     border-radius: 10px;
+}
+
+.imagenes {
+    height: 250px;
+    padding: 10px;
+    border-radius: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: white;
+    height: 40px;
+    padding: 5px;
+}
+
+
+
+/* Modo oscuro */
+body.dark-mode {
+    background: linear-gradient(#444343, #1a1a1a);
+    color: #e0e0e0;
+}
+
+header.dark-mode {
+    background-image: url('img/banner-dark.jpg');
+    color: #ffffff;
+}
+
+body.dark-mode footer {
+    background-color: #0c0b0b;
+    color: #e0e0e0;
+}
+
+
+.dark-mode .content {
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.dark-mode img {
+    filter: brightness(0.8);
 }

@@ -8,16 +8,18 @@
     <meta name="description" content="Guía completa sobre los pensamientos: características, variedades y cuidados.">
     <title>Guía Completa sobre Pensamientos: Características y Cuidados</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
+    
     <header>
         <div class="container">
             <h1>Pensamientos: Características y Cuidados</h1>
         </div>
     </header>
+    <button id="toggle-dark-mode" class="btn btn-secondary">Modo Oscuro</button>
 
     <section class="content">
         <h2>Introducción</h2>
@@ -38,6 +40,8 @@
             belleza, sino también por su resistencia a temperaturas frías, lo que la hace ideal para jardines que
             experimentan inviernos frescos.
         </p>
+
+        <img class="imagenes" src="img/img.jpg" alt="">
 
         <h2>Variedades Destacadas</h2>
         <ul>
@@ -82,6 +86,8 @@
             profundamente y luego permitir que el suelo se seque ligeramente entre riegos.
         </p>
 
+        <img class="imagenes" src="img/img_2.webp" alt="">
+
         <h3>Temperatura</h3>
         <p>
             La temperatura ideal durante el día para los pensamientos oscila entre los 15°C y 18°C y por la noche se
@@ -99,6 +105,8 @@
             fertilizante puede ser contraproducente y dañar las plantas.
         </p>
 
+        <img class="imagenes" src="img/img_3.webp" alt="">
+
         <h3>Periodo de Reposo</h3>
         <p>
             Los pensamientos, al igual que muchas otras plantas, tienen un periodo de reposo o latencia. Este periodo
@@ -106,13 +114,24 @@
             crecimiento activo y conservan energía. Es posible que observes que la floración se reduce o incluso se
             detiene por completo durante estos meses.
         </p>
+
+
+
     </section>
 
-    <footer class="text-center p-4 mt-5 bg-light">
+    <footer class="text-center">
         <p>&copy; 2024 Guía Completa sobre Pensamientos. Todos los derechos reservados.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const toggleButton = document.getElementById('toggle-dark-mode');
+        toggleButton.addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+    
 </body>
 
 </html>
